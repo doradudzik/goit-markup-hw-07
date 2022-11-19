@@ -1,0 +1,29 @@
+.description-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+  display: flex;
+  gap: 30px;
+
+  &__icon {
+    background: #f5f4fa;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__text {
+    padding-top: 10px;
+  }
+
+  &__header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+  }
+}

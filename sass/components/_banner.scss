@@ -1,0 +1,40 @@
+.banner {
+  background-color: var(--brand-color-2);
+  display: flex;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: linear-gradient(
+      to left,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/img17.jpg");
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  margin: 0 auto;
+
+  &__text {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    color: #ffffff;
+    letter-spacing: 0.06em;
+    max-width: 696px;
+    margin: 0 auto;
+  }
+
+  &__btn {
+    cursor: pointer;
+    background-color: var(--brand-color);
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    color: #ffffff;
+    margin-top: 30px;
+    padding: 10px 41px 10px 42px;
+    border-radius: 10px;
+  }
+}
